@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+<script>
+  alert("Может на вид я тупенькая, но...")
+</script>
+
+  <span class="hello">вотан</span>
+
+  </head>
+    <form name="calc" id="calc" class="calc">
+      <table>
+        <tr>
+          <td>
+            <input type="text" name="input" size="16" class="calc-display">
+          </td>
+        </tr>
+        <tr>
+          <td class="btn">
+            <input type="button" name="one" value="1" OnClick="calc.input.value += '1'">
+            <input type="button" name="two" value="2" OnClick="calc.input.value += '2'">
+            <input type="button" name="three" value="3" OnClick="calc.input.value += '3'">
+            <input type="button" name="add" value="+" OnClick="calc.input.value += '+'">
+            <br>
+            <input type="button" name="four" value="4" OnClick="calc.input.value += '4'">
+            <input type="button" name="five" value="5" OnClick="calc.input.value += '5'">
+            <input type="button" name="six" value="6" OnClick="calc.input.value += '6'">
+            <input type="button" name="subtraction" value="-" OnClick="calc.input.value += '-'">
+            <br>
+            <input type="button" name="seven" value="7" OnClick="calc.input.value += '7'">
+            <input type="button" name="eight" value="8" OnClick="calc.input.value += '8'">
+            <input type="button" name="nine" value="9" OnClick="calc.input.value += '9'">
+            <input type="button" name="multiplication" value="*" OnClick="calc.input.value += '*'">
+            <br>
+            <input type="button" name="clear" value="VSR" OnClick="calc.input.value = ''">
+            <input type="button" name="zero" value="0" OnClick="calc.input.value += '0'">
+            <input type="button" name="equally" value="=" OnClick="calc.input.value = eval(calc.input.value)">
+            <input type="button" name="division" value="/" OnClick="calc.input.value += '/'">
+          </td>
+        </tr>
+      </table>
+    </form>
+  <span class="ok">!Понятно, что тут присваивание и самый простой метод eval и MDN христом богом заклинает его не использовать</span>
+ 
+</body>
+</html>
